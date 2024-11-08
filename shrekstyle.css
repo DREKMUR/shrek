@@ -1,0 +1,92 @@
+/*En esta página se especifica todos los estilos de la página web principal de HTML*/
+
+body {
+  background-color: #bdffbb;
+  font-family: Calibri;
+  color: #333;
+  margin: 0;
+}
+/*Todo lo relacionado con "menú", hace referencia al menú horizontal de la página de HTML, sin esto, no existiría.*/
+.menu {
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  background-color: #229e41;
+  transition: background-color 1s ease;
+  border-radius: 5px;
+}
+
+.menu li {
+  margin: 0;
+  transition: background-color 1s ease;
+  border-radius: 5px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1s ease;
+  border-radius: 5px;
+}
+
+.menu li a:hover {
+  background-color: #156b15;
+  border-radius: 5px;
+}
+/*Estilos de encabezados.*/
+header,
+section {
+  padding: 20px;
+}
+
+h1 {
+  color: #2e8b57;
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: #2e8b57;
+}
+/*Especificación del botón del formulario*/
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 1s ease;
+}
+
+button:hover {
+  background-color: #316e34;
+}
+/*Para el recuadro del formulario*/
+.recuadro {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 3px solid #2e8b57;
+  border-radius: 10px;
+  display: inline-block;
+  /*Esta línea de aquí sirve para que se bloqué en el sitio el recuadro
+    del fieldset*/
+}
+#titulotabla {
+  border: 1px solid;
+  background-color:  rgb(164, 231, 228);
+}
+#fila {
+  border: 1px solid;
+  background-color: #ffeea2;
+}
+#columna {
+  border: 1px solid;
+  background-color:  rgb(241, 173, 173);
+}
